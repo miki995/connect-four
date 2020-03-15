@@ -41,6 +41,13 @@ export default class Board extends Component {
         })
     }
 
+    componentDidUpdate() {
+
+        let winner = checkIsWinn(this.state.boardState);
+
+        this.setState({winner})
+    }
+
     render() {
 
         const winnerColor = (this.state.winner === 'Red') ? 'Red' : 'Yellow';
