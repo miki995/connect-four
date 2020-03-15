@@ -10,6 +10,17 @@ export function checkIsWinn(board) {
                 board[column + 3][row])
             )
                 return board[column][row];
+
+    //check columns
+    for (let column = 0; column < 7; column++)
+        for (let row = 0; row < 4; row++)
+            if (checkLine(
+                board[column][row],
+                board[column][row + 1],
+                board[column][row + 2],
+                board[column][row + 3]
+            ))
+                return board[column][row];
 }
 
 
