@@ -1,3 +1,5 @@
+import { checkLine } from "../line/Line.helper";
+
 export function checkIsWinn(board) {
 
     // check rows
@@ -43,15 +45,4 @@ export function checkIsWinn(board) {
                 board[column - 3][row + 3]
             ))
                 return board[column][row];
-}
-
-
-function checkLine(i, j, k, l) {
-
-    const firstNotNull = i !== null;
-    const secondEqual = j === i;
-    const thirdEqual = k === i;
-    const fourthEqual = l === i;
-
-    return firstNotNull && secondEqual && thirdEqual && fourthEqual;
 }
