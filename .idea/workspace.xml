@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e420a940-83ab-4ebc-b02f-fec45338785b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/help[ers/winner/Winner.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/help[ers/winner/Winner.helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584266232686</updated>
-      <workItem from="1584266235203" duration="2700000" />
+      <workItem from="1584266235203" duration="3314000" />
     </task>
     <task id="LOCAL-00001" summary="Changes:&#10;&#10;- Setup Board component and it's css">
       <created>1584266938880</created>
@@ -157,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584268687845</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Changes:&#10;&#10;- Fix helper">
+      <created>1584268961301</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584268961301</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changes:&#10;&#10;- Readme update">
+      <created>1584269466415</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584269466415</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,13 +193,15 @@
     <MESSAGE value="Changes:&#10;&#10;- Check back slash in board js" />
     <MESSAGE value="Changes:&#10;&#10;- Check back slash fix" />
     <MESSAGE value="Changes:&#10;&#10;- Check line separate file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;&#10;- Check line separate file" />
+    <MESSAGE value="Changes:&#10;&#10;- Fix helper" />
+    <MESSAGE value="Changes:&#10;&#10;- Readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;&#10;- Readme update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1584268687116">
+    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1584269465804">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1584268687116" />
+    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1584269465804" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1584268940488">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -214,13 +230,13 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="560" y="43" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1584268831005" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584268689257">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584269469497">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1584268689257" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1584267778789">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1584269469497" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1584269290411">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1584267778789" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1584269290411" />
   </component>
 </project>
