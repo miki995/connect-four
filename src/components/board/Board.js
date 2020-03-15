@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // css
 import './Board.css'
+import Column from "../column/Column";
 
 
 export default class Board extends Component {

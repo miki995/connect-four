@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584266232686</updated>
-      <workItem from="1584266235203" duration="1018000" />
+      <workItem from="1584266235203" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="Changes:&#10;&#10;- Setup Board component and it's css">
       <created>1584266938880</created>
@@ -73,7 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584266938880</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes:&#10;&#10;- Setup Board logic for Column component and state of the board">
+      <created>1584267290174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584267290174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes:&#10;&#10;- Update the state of the board when user press on column">
+      <created>1584267492494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584267492494</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,20 +97,38 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Changes:&#10;&#10;- Setup Board component and it's css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;&#10;- Setup Board component and it's css" />
+    <MESSAGE value="Changes:&#10;&#10;- Setup Board logic for Column component and state of the board" />
+    <MESSAGE value="Changes:&#10;&#10;- Update the state of the board when user press on column" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;&#10;- Update the state of the board when user press on column" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1584267289526">
+    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1584267491829">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1584267289526" />
+    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1584267491829" />
     <state x="637" y="312" key="Github.ShareDialog" timestamp="1584266422483">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="637" y="312" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1584266422483" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584267291636">
+    <state width="1515" height="193" key="GridCell.Tab.0.bottom" timestamp="1584267535950">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1584267291636" />
+    <state width="1515" height="193" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584267535950" />
+    <state width="1515" height="193" key="GridCell.Tab.0.center" timestamp="1584267535950">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="193" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584267535950" />
+    <state width="1515" height="193" key="GridCell.Tab.0.left" timestamp="1584267535946">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="193" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584267535946" />
+    <state width="1515" height="193" key="GridCell.Tab.0.right" timestamp="1584267535950">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="193" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584267535950" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584267493906">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1584267493906" />
   </component>
 </project>
