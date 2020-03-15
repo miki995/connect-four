@@ -1,5 +1,5 @@
 <p align="center"> 
-**Connect Four game 6x7 board**
+<b>Connect Four game 6x7 board</b>
 </p>
 
 <p align="center"> 
