@@ -1,0 +1,9 @@
+.Board {
+    display: flex;
+}
+
+.Winner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
