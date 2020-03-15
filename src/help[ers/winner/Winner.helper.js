@@ -32,6 +32,17 @@ export function checkIsWinn(board) {
                 board[column + 3][row + 3])
             )
                 return board[column][row];
+
+    // check back slash
+    for (let row = 0; row < 4; row++)
+        for (let column = 3; column < 7; column++)
+            if (checkLine(
+                board[column][row],
+                board[column - 1][row + 1],
+                board[column - 2][row + 2],
+                board[column - 3][row + 3]
+            ))
+                return board[column][row];
 }
 
 
