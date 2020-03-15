@@ -1,5 +1,4 @@
 import { checkLine } from "../line/Line.helper";
-
 export function checkIsWinn(board) {
 
     // check rows
@@ -45,4 +44,6 @@ export function checkIsWinn(board) {
                 board[column - 3][row + 3]
             ))
                 return board[column][row];
+
+    return '';
 }

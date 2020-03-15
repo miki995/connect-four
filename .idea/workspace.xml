@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584266232686</updated>
-      <workItem from="1584266235203" duration="2279000" />
+      <workItem from="1584266235203" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="Changes:&#10;&#10;- Setup Board component and it's css">
       <created>1584266938880</created>
@@ -129,7 +129,35 @@
       <option name="project" value="LOCAL" />
       <updated>1584268288495</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Changes:&#10;&#10;- Check back slash">
+      <created>1584268527311</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584268527311</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changes:&#10;&#10;- Check back slash in board js">
+      <created>1584268583904</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584268583904</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changes:&#10;&#10;- Check back slash fix">
+      <created>1584268608371</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584268608371</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changes:&#10;&#10;- Check line separate file">
+      <created>1584268687845</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584268687845</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,13 +175,21 @@
     <MESSAGE value="Changes:&#10;&#10;- Check rows complete" />
     <MESSAGE value="Changes:&#10;&#10;- Check columns" />
     <MESSAGE value="Changes:&#10;&#10;- Check forward slash" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;&#10;- Check forward slash" />
+    <MESSAGE value="Changes:&#10;&#10;- Check back slash" />
+    <MESSAGE value="Changes:&#10;&#10;- Check back slash in board js" />
+    <MESSAGE value="Changes:&#10;&#10;- Check back slash fix" />
+    <MESSAGE value="Changes:&#10;&#10;- Check line separate file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;&#10;- Check line separate file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1584268607710">
+    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1584268687116">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1584268607710" />
+    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1584268687116" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1584268940488">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1584268940488" />
     <state x="637" y="312" key="Github.ShareDialog" timestamp="1584266422483">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -174,10 +210,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="193" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584267825467" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584268609538">
+    <state x="560" y="43" key="RollbackChangesDialog" timestamp="1584268831005">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1584268609538" />
+    <state x="560" y="43" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1584268831005" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584268689257">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1584268689257" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1584267778789">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
