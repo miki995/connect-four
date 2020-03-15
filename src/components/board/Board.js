@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // css
 import './Board.css'
 import Column from "../column/Column";
+import { checkIsWinn } from "../../help[ers/winner/Winner.helper";
 
 
 export default class Board extends Component {
@@ -45,7 +46,9 @@ export default class Board extends Component {
 
         let winner = checkIsWinn(this.state.boardState);
 
-        this.setState({winner})
+        if (this.state.winner !== winner) {
+            this.setState({winner})
+        }
     }
 
     render() {
