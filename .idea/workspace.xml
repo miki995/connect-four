@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e420a940-83ab-4ebc-b02f-fec45338785b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/board/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/board/Board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/column/Column.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/column/Column.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584266232686</updated>
-      <workItem from="1584266235203" duration="1396000" />
+      <workItem from="1584266235203" duration="1595000" />
     </task>
     <task id="LOCAL-00001" summary="Changes:&#10;&#10;- Setup Board component and it's css">
       <created>1584266938880</created>
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584267492494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes:&#10;&#10;- Column component which will hold fields, i.e. our squares">
+      <created>1584267675444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584267675444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,36 +106,41 @@
     <MESSAGE value="Changes:&#10;&#10;- Setup Board component and it's css" />
     <MESSAGE value="Changes:&#10;&#10;- Setup Board logic for Column component and state of the board" />
     <MESSAGE value="Changes:&#10;&#10;- Update the state of the board when user press on column" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;&#10;- Update the state of the board when user press on column" />
+    <MESSAGE value="Changes:&#10;&#10;- Column component which will hold fields, i.e. our squares" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes:&#10;&#10;- Column component which will hold fields, i.e. our squares" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1584267491829">
+    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1584267674732">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1584267491829" />
+    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1584267674732" />
     <state x="637" y="312" key="Github.ShareDialog" timestamp="1584266422483">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="637" y="312" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1584266422483" />
-    <state width="1515" height="193" key="GridCell.Tab.0.bottom" timestamp="1584267535950">
+    <state width="1515" height="193" key="GridCell.Tab.0.bottom" timestamp="1584267825467">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="193" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584267535950" />
-    <state width="1515" height="193" key="GridCell.Tab.0.center" timestamp="1584267535950">
+    <state width="1515" height="193" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584267825467" />
+    <state width="1515" height="193" key="GridCell.Tab.0.center" timestamp="1584267825467">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="193" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584267535950" />
-    <state width="1515" height="193" key="GridCell.Tab.0.left" timestamp="1584267535946">
+    <state width="1515" height="193" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584267825467" />
+    <state width="1515" height="193" key="GridCell.Tab.0.left" timestamp="1584267825467">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="193" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584267535946" />
-    <state width="1515" height="193" key="GridCell.Tab.0.right" timestamp="1584267535950">
+    <state width="1515" height="193" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584267825467" />
+    <state width="1515" height="193" key="GridCell.Tab.0.right" timestamp="1584267825467">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="193" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584267535950" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584267493906">
+    <state width="1515" height="193" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584267825467" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584267677208">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1584267493906" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1584267677208" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1584267778789">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1584267778789" />
   </component>
 </project>

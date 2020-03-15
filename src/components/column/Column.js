@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Field from "../field/Field";
 
 export default class Column extends Component {
 
