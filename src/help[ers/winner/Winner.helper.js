@@ -1,9 +1,14 @@
 import { checkLine } from "../line/Line.helper";
+
 export function checkIsWinn(board) {
 
+    const rows = board.length;
+    const [column] = board;
+    const columns = column.length;
+
     // check rows
-    for (let row = 0; row < 6; row++)
-        for (let column = 0; column < 4; column++)
+    for (let row = 0; row < rows; row++)
+        for (let column = 0; column < columns - 3; column++)
             if (checkLine(
                 board[column][row],
                 board[column + 1][row],
@@ -13,8 +18,8 @@ export function checkIsWinn(board) {
                 return board[column][row];
 
     //check columns
-    for (let column = 0; column < 7; column++)
-        for (let row = 0; row < 4; row++)
+    for (let column = 0; column < columns; column++)
+        for (let row = 0; row < rows - 3; row++)
             if (checkLine(
                 board[column][row],
                 board[column][row + 1],
@@ -24,7 +29,7 @@ export function checkIsWinn(board) {
                 return board[column][row];
 
     // check forward slash
-    for (let row = 0; row < 3; row++)
+    for (let row = 0; row < rows - 3; row++)
         for (let column = 0; column < 4; column++)
             if (checkLine(
                 board[column][row],
@@ -35,8 +40,8 @@ export function checkIsWinn(board) {
                 return board[column][row];
 
     // check back slash
-    for (let row = 0; row < 4; row++)
-        for (let column = 3; column < 6; column++)
+    for (let row = 0; row < rows - 3; row++)
+        for (let column = 3; column < columns; column++)
             if (checkLine(
                 board[column][row],
                 board[column - 1][row + 1],
