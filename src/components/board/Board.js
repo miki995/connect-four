@@ -4,19 +4,21 @@ import './Board.css'
 import Column from "../column/Column";
 import { checkIsWinn } from "../../help[ers/winner/Winner.helper";
 
-
 export default class Board extends Component {
 
-    rowsNumber = 7;
-    columnsNumber = 6;
+    rowsNumber = 10;
+    columnsNumber = 10;
     columnsArray = new Array(this.columnsNumber).fill(null);
     initialBoardState = new Array(this.rowsNumber).fill(this.columnsArray);
 
-    state = {
+    initialState = {
         boardState: this.initialBoardState,
         player: 'Red',
-        winner: ''
+        winner: '',
+        gameTie: false
     };
+
+    state = this.initialState;
 
     next(columnId) {
 
@@ -49,6 +51,22 @@ export default class Board extends Component {
         if (this.state.winner !== winner) {
             this.setState({winner})
         }
+
+        if (this.state.winner === '' && this.checkIfGameTie() && !this.state.gameTie) {
+
+            this.setState({
+                gameTie: true
+            })
+        }
+    }
+
+    checkIfGameTie() {
+
+        return this.state.boardState.every(column => !column.some(field => field === null))
+    }
+
+    resetGame() {
+        this.setState(this.initialState);
     }
 
     render() {
@@ -69,6 +87,7 @@ export default class Board extends Component {
         return (
             <div>
                 {this.state.winner && <div className='Winner'>The winner is player: {this.state.winner}</div>}
+                {this.state.gameTie && <div className='Winner'>The game is tie : <button onClick={() => this.resetGame()}>Reset</button></div>}
                 <div className='Board'>{columns}</div>
             </div>
         )
